@@ -1,0 +1,33 @@
+MY TOOLKIT PLAN - Week 8 Final Project
+
+What is my program?
+A menu-driven toolkit program that runs until the user chooses to quit.
+It offers 3 tools in one place.
+
+Tools I will build:
+1. Simple Calculator - add, subtract, multiply, divide two numbers
+2. To-Do List Manager - add tasks, view tasks, remove tasks using a list
+3. Number Explorer - enter numbers, then see even/odd, total, average, biggest and smallest
+
+How will the menu work?
+- Show menu in a while True loop
+- Ask user to choose 1, 2, 3 or 4 to quit
+- Use if / elif / else to go to the right tool
+- If user types something wrong, show friendly message and show menu again
+- If user chooses 4, print goodbye and break the loop
+
+What lists will I use?
+- tasks = [] for the To-Do List, it changes while program runs
+- numbers = [] for Number Explorer
+
+What could go wrong?
+- User types letters instead of numbers -> use try/except
+- User tries to divide by zero -> check and show message
+- User tries to remove task that doesn't exist -> check list first
+
+Steps:
+1. Write plan (this file)
+2. Write toolkit.py with functions for each tool
+3. Test each tool 2 times
+4. Write README.md
+5. Upload to GitHub
